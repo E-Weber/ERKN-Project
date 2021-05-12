@@ -1,0 +1,39 @@
+body{
+    width: 100%;
+    background-color: lightslategrey;
+}
+
+*p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: center;
+    font-size: 15px;
+}
+
+.navbar{
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    box-sizing: border-box;
+}
+
+.map{
+    max-width: 300px;
+    max-height: fit-content;
+    position: relative;
+    float: left;
+}
+
+.pi{
+    max-width: 300px;
+    max-height: fit-content;
+    position: relative;
+    float: right;
+}
+
+.graph{
+    max-width: 90%;
+    max-height: fit-content;
+    position: relative;
+    float: bottom;
+}
