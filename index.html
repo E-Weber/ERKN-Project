@@ -11,18 +11,50 @@
 </head>
 
 <body>
-    <div id='nav-bar'>
-        <select id='dropdown'>
-            <option></option>
-        </select>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Home Pineapple</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Pineapples
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id='density_map'>
+        <img class="map"
+            src="https://besthotelshome.com/wp-content/uploads/2020/04/Map-of-United-States-of-America-with-States-scaled.jpg">
     </div>
-    <div id='density_map'></div>
     <div id='stacked_columns'></div>
-    <div id='pie_chart'></div>
-    <div id='long_graph'></div>
+    <div id='pie_chart'>
+        <img class="pi"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Greek_lc_pi.svg/1200px-Greek_lc_pi.svg.png">
+    </div>
+    <div id='long_graph'>
+        <img class="graph" src="https://www.quickanddirtytips.com/sites/default/files/images/5360/line_graph.png">
+    </div>
+
+
 
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="app.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </body>
 
 </html>
