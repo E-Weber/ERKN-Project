@@ -1,6 +1,5 @@
 body{
-    width: 100%;
-    background-color: lightslategrey;
+    background-color: lightslategrey !important;
 }
 
 *p{
@@ -9,25 +8,21 @@ body{
     font-size: 15px;
 }
 
-.navbar{
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
+/* .dropdown{
+    padding: 10px;
     margin-right: 1rem;
     font-size: 1.25rem;
-    box-sizing: border-box;
-    flex-wrap: wrap;
-    display: flex
+    position: fixed;
+    color: seagreen
 }
-.navbar a{
-  float: left;
-  display: block;
+.dropdown a{
+  float: right;
   color: lightgray;
-  text-align: center;
-  padding: 14px 16px;
-}
-.navbar a:hover {
+} */
+
+.dropdown a:hover {
   background-color: lightgray;
-  color: black;
+  color: black !important;
 }
 
 .map{
