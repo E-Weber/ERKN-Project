@@ -18,15 +18,26 @@ var svg = d3
 var chartGroup = svg.append("g")
   .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
+// Inital Params
+var chosenXAxis = "Name";
+
+//function used for updating x-scale var upon click on axis label
+function xScale(education,chosenXAxis) {
+ //create scales
+  var xLinearScale = d3.scaleLinear()
+    .domain([D3.min(Name, d=> d[chosenXAxis])])
+}
+//create scales
+
 var parsetime = d3.timeParse("%B")
 
 //Import Data from an external CSV file 
-d3.csv("/data/longitudinal.csv").then(function(weightData) {
+d3.csv("/data/longitudinal.csv").then(function(education) {
   //console.log(Data);
   //console.log([Data]);
 
   //Step 1. Parse Data/Cast as members (age/obesity)
-  weightData.forEach(function(data) {
+  education.forEach(function(data) {
     data.age = +data.age;
     data.obesity = +data.obesity;
   });
