@@ -1,0 +1,86 @@
+body{
+    background-color: lightslategrey !important;
+}
+
+*p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.navbar{
+  border-radius: 25px;
+  width: 30%;
+  display: grid;
+  position: fixed;
+  place-items: center;
+  
+}
+
+.navbar a:hover {
+  background-color: lightgray;
+  color: black !important;
+  border-radius: 15px;
+  text-align: right;
+
+}
+
+.map{
+    width: 90%;
+    height: 90%;
+    display: grid;
+    position: relative;
+    padding: 50px;  
+}
+
+.map-body p{
+    text-align: left;
+    float: left;
+}
+
+
+.graph{
+    width: 40%;
+    height: 40%;
+    display: flex;
+    position: absolute;
+    bottom: 60px;
+    right: 90px;
+    padding: 30px;
+}
+
+
+/* Pie Chart */
+.pi{
+    max-width: 30%;
+    max-height: 30%;
+    display: flex;
+    position: relative;
+    float: right;
+    padding: 10px;
+}
+.pi-body{
+    text-align: right;
+    float: right;
+
+}
+
+/* @property --percentage {
+  initial-value: 0%;
+  inherits: false;
+  syntax: "<percentage>";
+}
+
+.chart {
+  background: conic-gradient(red var(--percentage), white 0);
+  border-radius: 50%;
+  width: 80vmin;
+  height: 80vmin;
+  animation: timer 4s infinite linear;
+}
+
+@keyframes timer {
+  to {
+    --percentage: 100%;
+  }
+} */
+
