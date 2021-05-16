@@ -22,12 +22,16 @@ var chartGroup = svg.append("g")
 var chosenXAxis = "Name";
 
 //function used for updating x-scale var upon click on axis label
-function xScale(education,chosenXAxis) {
+function xScale(Name,chosenXAxis) {
  //create scales
   var xLinearScale = d3.scaleLinear()
-    .domain([D3.min(Name, d=> d[chosenXAxis])])
+    .domain([D3.min(Name, d=> d[chosenXAxis]) * 0.8,
+    d3.max(Name, d=> [chosenXaxis]) * 1.2
+    ])
+    range([0,width])
+  return xLinearScale
 }
-//create scales
+
 
 var parsetime = d3.timeParse("%B")
 
