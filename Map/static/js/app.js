@@ -776,7 +776,8 @@ var myMap = L.map("map", {
 
 L.control.layers(baseMaps, overlayMaps).addTo(myMap);
 
-// The JavaScript below is new
+
+
 $("#top10").click(function() {
   map.addLayer(top10)
   map.removeLayer(alluni)
