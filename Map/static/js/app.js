@@ -725,7 +725,7 @@ var universityMarkers = [];
 
 for (var i = 0; i < universities.length; i++) {
   universityMarkers.push(
-    L.marker(universities[i].Location).bindPopup("<h1>" + universities[i].Name + "</h1>")
+    L.marker(universities[i].Location).bindPopup("<h1>" + universities[i].Rank + ': ' + universities[i].Name + "</h1>")
   );
 }
 
