@@ -776,8 +776,7 @@ var myMap = L.map("map", {
 
 L.control.layers(baseMaps, overlayMaps).addTo(myMap);
 
-
-
+/*
 $("#top10").click(function() {
   map.addLayer(top10)
   map.removeLayer(alluni)
@@ -785,4 +784,4 @@ $("#top10").click(function() {
 $("#alluni").click(function() {
   map.addLayer(alluni)
   map.removeLayer(top10)
-});
+});*/
