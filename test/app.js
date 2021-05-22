@@ -2,11 +2,12 @@ let data;
 
 function bahold() {
     let BA = data.map(row=>{
-        return {x: data.columns.slice(1,16), y: Object.values(row).slice(0,15), type:'scatter'
+        return {x: data.columns.slice(1,16), y: Object.values(row).slice(0,15), name: row.State, type:'scatter'
         }
         });
     Plotly.newPlot('line',BA, layout);
 }
+
 //var config = {responsive : true}
 
 var layout = {
