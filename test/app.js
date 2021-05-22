@@ -12,7 +12,7 @@ function bahold() {
 var layout = {
     autosize: false,
     showlegend:false,
-    width: 1700,
+    width: 1500,
     height: 1000,
     margin: {
       l: 50,
@@ -21,6 +21,35 @@ var layout = {
       t: 100,
       pad: 4
     },
+    title: {
+        text:'BA Holders',
+        font: {
+          family: 'Courier New, monospace',
+          size: 24
+        },
+        xref: 'paper',
+        x: 0.05,
+      },
+      xaxis: {
+        title: {
+          text:'Year',
+          font: {
+            family: 'Courier New, monospace',
+            size: 18,
+            color: '#7f7f7f'
+          }
+        },
+      },
+      yaxis: {
+        title: {
+          text: 'Year',
+          font: {
+            family: 'Courier New, monospace',
+            size: 18,
+            color: '#7f7f7f'
+        }
+    }
+  }
 }
 
 
