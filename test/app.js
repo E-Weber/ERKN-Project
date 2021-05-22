@@ -12,7 +12,7 @@ function bahold() {
 
 var layout = {
     autosize: false,
-    showlegend:false,
+    showlegend:true,
     width: 1500,
     height: 1000,
     margin: {
