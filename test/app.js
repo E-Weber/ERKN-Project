@@ -25,10 +25,11 @@ var layout = {
         text:'BA Holders',
         font: {
           family: 'Courier New, monospace',
-          size: 24
+          size: 24,
+          'xanchor':'center',
+          'yanchor':'top',
         },
         xref: 'paper',
-        x: 0.05,
       },
       xaxis: {
         title: {
