@@ -1,5 +1,6 @@
 body{
     background-color: lightslategrey !important;
+    opacity: 75%;
 }
 
 *p{
@@ -194,3 +195,4 @@ h2{
     --percentage: 100%;
   }
 } */
+
