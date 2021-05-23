@@ -1,5 +1,6 @@
 body{
     background-color: lightslategrey !important;
+    opacity: 75%;
 }
 
 *p{
@@ -10,7 +11,7 @@ body{
 
 h1{
     padding: 20px;
-    color: lightskyblue;
+    color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 36px;
@@ -18,10 +19,10 @@ h1{
 
 h2{
     padding: 20px;
-    color: seashell;
+    color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 36px;
     position: relative;
     float:left;
 }
@@ -137,8 +138,8 @@ h2{
 
 /* Graph */
 .graph{
-    width: 80%;
-    height: 100%;
+    width: 40%;
+    height: 75%;
     display: grid;
     position: relative;
     float:left;
@@ -161,8 +162,8 @@ h2{
 
 /* Pie Chart */
 .pi{
-    width: 70%;
-    height: 50%;
+    width: 30%;
+    height: 15%;
     display: grid;
     position: relative;
     float: right;
@@ -194,3 +195,4 @@ h2{
     --percentage: 100%;
   }
 } */
+
