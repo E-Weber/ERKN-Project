@@ -11,33 +11,21 @@
 </head>
 
 <body>
-    <div class="ku">
-        <nav class="navbar navbar2 navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Features</a>
-                    <a class="nav-item nav-link" href="#">Pricing</a>
+    <div>
+        <div class="ku">
+            <nav class="navbar navbar2 navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#">Features</a>
+                        <a class="nav-item nav-link" href="#">Pricing</a>
+                    </div>
                 </div>
-            </div>
-        </nav>
-
-        <nav class="navbar navbar1 navbar-expand-lg navbar-light bg-light col-md-4">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Features</a>
-                    <a class="nav-item nav-link" href="#">Pricing</a>
-                </div>
-            </div>
+        </div>
         </nav>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -61,48 +49,36 @@
                 <br>
             </div>
             <div class="row">
-                <div class="map-body col-md-10">
-                    <h1> <strong>Density Map</strong> </h1>
-                    <div id="map" style="width: 500px; height: 400px">
+                <div class="map-row col-md-12">
+                    <div class="map-body col-md-6">
+                        <h1> <strong>National University Rankings in the United States</strong> </h1>
                     </div>
-                </div>
-                <div>
-                    <hr>
-                </div>
-                <vr>
-                    <div class="pi-body col-md-12">
-                        <h2> <strong>Pie Chart</strong> </h2>
-                        <div id='pie_chart'>
-                            <img class="pi col-md-6"
-                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Pi-symbol.svg/588px-Pi-symbol.svg.png">
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut
-                                labore
-                                et
-                                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris
-                                nisi
-                                ut
-                                aliquip
-                                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                                esse
-                                cillum
-                                dolore eu
-                                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                                qui
-                                officia
-                                deserunt mollit anim id est laborum.
-                            </p>
+                    <div col-md-6>
+                        <div id="map" style="width: 450px; height: 400px">
                         </div>
                     </div>
-                </vr>
-                <div>
-                    <hr>
                 </div>
-                <div id='long_graph'>
-                    <h1> <strong>Chipotle</strong> </h1>
-                    <img class="graph col-md-6"
-                        src="https://image.shutterstock.com/image-vector/abstract-financial-chart-uptrend-line-600w-1311873344.jpg">
+            </div>
+            <div>
+                <hr>
+            </div>
+            <vr>
+                <div class="pi-body col-md-12">
+                    <div col-md-6>
+                        <div id='pie_chart'></div>
+                    </div>
+                    <br>
+                    <div col-md-6>
+                        <h2> <strong>Unemployment & Underemployment Rates by Degree</strong> </h2>
+                    </div>
+                </div>
+            </vr>
+            <div>
+                <hr>
+            </div>
+            <div id='long_graph'>
+                <h1> <strong>BA's per Year </strong> </h1>
+                <div id="line">
                     <div class="graph-body col-md-6">
                         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             incididunt ut
@@ -123,6 +99,7 @@
                 </div>
             </div>
         </div>
+
     </div>
     </div>
 
@@ -141,7 +118,7 @@
     <script type="text/javascript" src="./Map/config.js"></script>
     <!-- JS -->
     <script type="text/javascript" src="./Map/static/js/app.js"></script>
-    <script type="text/javascript" src="static/js/app.js"></script>
+    <script src="./test/app.js"></script>
     <script src='./static/js/pie_chart.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.1/chart.min.js'></script>
 
