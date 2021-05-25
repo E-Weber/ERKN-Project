@@ -31,7 +31,7 @@ h2{
 /* right */
 .navbar{
   border-radius: 25px;
-  width: 25%;
+  width: 35%;
   display: grid;
   position: static;
   place-items: center;
@@ -187,6 +187,10 @@ body {
   fill: none;
   stroke: orange;
   stroke-width: 2px;
+}
+
+#line{
+  height: 50px;
 }
 
 
