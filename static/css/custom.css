@@ -170,9 +170,14 @@ h3{
 
 #pie_chart{
   float: left;
-  pad: 100px;
+  padding-left: 100px;
 }
 
+
+#pie_chart 
+.labels{
+  color:seashell
+}
 
 .pi-body{
     width: 50%;
@@ -184,9 +189,13 @@ h3{
 }
 
 #canvas{
-  padding: 30px;
+  padding-bottom: 30px;
   border: 30px;
-  color:seashell;
+  color:seashell !important;
+}
+
+#select_menu{
+  padding-left: 50px;
 }
 
 

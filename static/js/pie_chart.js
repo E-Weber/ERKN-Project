@@ -17,11 +17,13 @@ d3.csv(path).then(d => {
             datasets: [{
                 data: [d[0]['Unemployment Rate'], d[0]['Underemployment Rate']],
                 backgroundColor: ['#4747d3', '#c754d5']
+
             }],
             labels: ['Unemployment Rate', 'Underemployment Rate']
         },
         options: {
             responsive: false
+
         }
     })
 })
@@ -43,11 +45,16 @@ function buildChart(major) {
                 datasets: [{
                     data: rates,
                     backgroundColor: ['#4747d3', '#c754d5']
+
                 }],
                 labels: labels
+
+
+
             },
             options: {
-                responsive: false
+                responsive: false,
+
             }
         })
     })
