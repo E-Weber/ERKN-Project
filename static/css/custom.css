@@ -28,6 +28,15 @@ h2{
     float: right;
 }
 
+h3{
+  padding-left: 40px;
+  color: seashell !important;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+
 /* right */
 .navbar{
   border-radius: 25px;
@@ -43,7 +52,7 @@ h2{
   background-color: lightgray;
   color: black !important;
   border-radius: 15px;
-  text-align: right;
+  text-align: center;
 
 }
 
@@ -161,6 +170,7 @@ h2{
 
 #pie_chart{
   float: left;
+  pad: 100px;
 }
 
 
@@ -173,10 +183,16 @@ h2{
     padding: 55px;
 }
 
-html,
+#canvas{
+  padding: 30px;
+  border: 30px;
+  color:seashell;
+}
+
+
 body {
-  padding: 0;
-  margin: 0;
+  padding: 50;
+  margin: 50;
 }
 
 .axis {
@@ -192,6 +208,7 @@ body {
 #line{
   height: 50px;
 }
+
 
 
 /* @property --percentage {

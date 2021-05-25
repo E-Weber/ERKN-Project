@@ -14,8 +14,8 @@ function bahold() {
 var layout = {
   autosize: false,
   showlegend: true,
-  width: 800,
-  height: 700,
+  width: 100,
+  height: 200,
   margin: {
     l: 20,
     r: 20,
