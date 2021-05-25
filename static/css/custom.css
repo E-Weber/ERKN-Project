@@ -1,8 +1,6 @@
 body{
     background-color: lightslategrey !important;
     opacity: 75%;
-    position:absolute;
-    overflow: scroll;
 }
 
 *p{
