@@ -27,11 +27,39 @@
                 </div>
         </div>
         </nav>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+            integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+            integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+            crossorigin="anonymous"></script>
+
+        <!-- Leaflet CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+            integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+            crossorigin="" />
 
 
-
+        <div class="container">
+            <div>
+                <br>
+            </div>
+            <div class="row">
+                <div class="map-row col-md-12">
+                    <div class="map-body col-md-6">
+                        <h1> <strong>Top Ranked Universities in the United States</strong> </h1>
+                    </div>
+                    <div col-md-6>
+                        <div id="map" style="width: 450px; height: 400px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
 
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="static/js/app.js"></script>
