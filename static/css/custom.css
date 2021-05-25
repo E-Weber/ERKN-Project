@@ -1,6 +1,8 @@
 body{
     background-color: lightslategrey !important;
     opacity: 75%;
+    position:absolute;
+    overflow: scroll;
 }
 
 *p{
@@ -170,6 +172,7 @@ h3{
 
 #pie_chart{
   float: left;
+
   padding-left: 100px;
 }
 
@@ -178,6 +181,7 @@ h3{
 .labels{
   color:seashell
 }
+
 
 .pi-body{
     width: 50%;
@@ -189,6 +193,7 @@ h3{
 }
 
 #canvas{
+
   padding-bottom: 30px;
   border: 30px;
   color:seashell !important;
@@ -218,6 +223,32 @@ body {
   height: 50px;
 }
 
+
+
+  padding: 30px;
+  border: 30px;
+  color:seashell;
+}
+
+
+body {
+  padding: 50;
+  margin: 50;
+}
+
+.axis {
+  font: 14px sans-serif;
+}
+
+.line {
+  fill: none;
+  stroke: orange;
+  stroke-width: 2px;
+}
+
+#line{
+  height: 50px;
+}
 
 
 /* @property --percentage {
