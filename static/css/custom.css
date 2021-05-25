@@ -25,7 +25,7 @@ h2{
     font-weight: bold;
     font-size: 36px;
     position:relative;
-    float: left;
+    float: right;
 }
 
 /* right */
@@ -33,7 +33,7 @@ h2{
   border-radius: 25px;
   width: 25%;
   display: grid;
-  position: fixed !important;
+  position: static;
   place-items: center;
   text-align: center;
   z-index: 500;
@@ -50,9 +50,9 @@ h2{
 .navbar2{
     grid: inherit;
     position: absolute;
-    right: 120px;
+    left: 80px;
     top: 40px;
-    float: right;
+    float: left;
     z-index: 500 !important;
 }
 
@@ -60,7 +60,8 @@ h2{
 .ku {
   position: relative;
   height: 150px;
-  right: 80px;
+  padding-right: 10px;
+  padding-left: 10px;
   background: brown;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c0/University_of_Kansas_%22KU%22_logo.png");
 
@@ -106,11 +107,11 @@ h2{
     padding: 50px;
     display: grid;
     position: relative;  
-    float: left
+    float: right
 }
 
 .map-body {
-    float: right;
+    float: left;
     position: relative;
     padding: 50px;
     padding-top: 150px;
@@ -157,13 +158,35 @@ h2{
 }
 
 /* Pie Chart */
+
+#pie_chart{
+  float: left;
+}
+
+
 .pi-body{
     width: 50%;
     height: 15%;
     display: grid;
     position: static;
-    float: left;
+    float: right;
     padding: 55px;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.axis {
+  font: 14px sans-serif;
+}
+
+.line {
+  fill: none;
+  stroke: orange;
+  stroke-width: 2px;
 }
 
 
